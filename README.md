@@ -21,6 +21,8 @@
 
 ### mongodb
 
+* [MongoDB](https://docs.mongodb.com/manual/installation/) is really easy to install, click here [MongoDB](https://docs.mongodb.com/manual/installation/) and follow the step to install mongoDB.
+
 ## Quick Start
 
 * git clone https://github.com/arshealam4/node-login-signup.git
