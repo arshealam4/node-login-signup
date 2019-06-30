@@ -1,17 +1,18 @@
-# express-es6-boilerplate
+# node-login-signup-boilerplate
+- [x] Node
 - [x] Express
 - [x] mongoose odm
 - [x] Best Practice Structure
 - [x] JWT middleware for authorization
-- [x] Es6
-## Development mode :
-after install packages with ``` npm install  ``` or ``` yarn install ``` run this command:
-```
-  npm run build-dev
-```
-## Production mode :
-```
-  npm run build-prod
-```
-now start server with ``` npm run server ``` and Open http://localhost:3000 to view it in the browser
+- [x] Async Await
 
+#Quick start
+
+git clone https://github.com/arshealam4/node-login-signup.git
+cd node-login-signup
+npm install
+npm install -g nodemon
+
+run project 
+
+nodemon
