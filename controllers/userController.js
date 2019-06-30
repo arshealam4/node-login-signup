@@ -83,8 +83,6 @@ module.exports.login = async (req, res, next) => {
 
 module.exports.getUserList = async (req, res, next) => {
 
-    console.log("==================");
-
     const perPage = parseInt(req.params.perPage);
     const page = parseInt(req.params.page);
     const skip = perPage * (page - 1);

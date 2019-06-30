@@ -10,7 +10,6 @@ const cors = require('cors');
 require('./models/UsersModel');
 
 // registered all routes
-var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
@@ -31,7 +30,6 @@ require('./lib/maindb');
 const API = '/api/v1/';
 app.all(API + '*', [require('./lib/tokenGuard')]);
 
-// app.use('/', indexRouter);
 app.use(API + 'users', usersRouter);
 
 // catch 404 and forward to error handler
