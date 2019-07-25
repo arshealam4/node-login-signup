@@ -51,9 +51,9 @@ or
 #### from bit bucket
 * git clone https://github.com/arshealam4/node-login-signup.git
 * cd node-login-signup
-* docker build -t <app-name> .
-* sudo docker run <app-name>
-* sudo docker run --network=host <app-name> //// run this, if not able to connect with mongo 27017, replace 127.0.0.1 to 0.0.0.0 in mongo conf
+* docker build -t "app-name" .
+* sudo docker run "app-name"
+* sudo docker run --network=host "app-name" //// run this, if not able to connect with mongo 27017, replace 127.0.0.1 to 0.0.0.0 in mongo conf
 
 ### Run Project 
 
