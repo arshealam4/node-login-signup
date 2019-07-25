@@ -31,13 +31,26 @@
 
 * [MongoDB](https://docs.mongodb.com/manual/installation/) is really easy to install, click here [MongoDB](https://docs.mongodb.com/manual/installation/) and follow the step to install mongoDB.
 
+### docker
+
+* [Docker](https://docs.docker.com/install/) is really easy to install, click here [Docker](https://docs.docker.com/install/) and follow the step to install Docker.
+
 ## Quick Start
+
+* We can run our project with docker or follow simple steps as given below(Run Project);
+
+### start docker
+
+* git clone https://github.com/arshealam4/node-login-signup.git
+* cd node-login-signup
+* docker build -t <app-name> .
+* docker run -p 5000:5000 -d <app-name>
+
+### Run Project 
 
 * git clone https://github.com/arshealam4/node-login-signup.git
 * cd node-login-signup
 * npm install
 * npm install -g nodemon
-
-### Run Project 
 
 nodemon
