@@ -12,6 +12,7 @@
 - [x] Best Practice Structure
 - [x] JWT middleware for authorization
 - [x] Async Await
+- [x] Docker
 
 ## Requirements
 
