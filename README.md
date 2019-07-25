@@ -39,7 +39,7 @@
 
 * We can run our project with docker or follow simple steps as given below(Run Project);
 
-### start docker
+### Start docker
 
 * git clone https://github.com/arshealam4/node-login-signup.git
 * cd node-login-signup
