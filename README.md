@@ -37,14 +37,23 @@
 
 ## Quick Start
 
-* We can run our project with docker or follow simple steps as given below(Run Project);
+* We can run our project with docker or follow simple steps as given below(Run Project).
 
 ### Start docker
 
+#### from docker hub
+* docker pull ashe42/node-express-app
+* docker run ashe42/node-express-app
+* docker run --network=host ashe42/node-express-app // run this, if not able to connect with mongo 27017, replace 127.0.0.1 to 0.0.0.0 in mongo conf
+
+or
+
+#### from bit bucket
 * git clone https://github.com/arshealam4/node-login-signup.git
 * cd node-login-signup
 * docker build -t <app-name> .
-* docker run -p 5000:5000 -d <app-name>
+* sudo docker run <app-name>
+* sudo docker run --network=host <app-name> //// run this, if not able to connect with mongo 27017, replace 127.0.0.1 to 0.0.0.0 in mongo conf
 
 ### Run Project 
 
